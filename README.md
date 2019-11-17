@@ -48,12 +48,14 @@ https://learning.getpostman.com/docs/postman/launching-postman/installation-and-
 ```
 POST http://localhost:8000/auth/signup
 ```
+```
 Request body:
 {
   "name": "bob",
   "email": "bob@email.com",
   "password": "bob"
 }
+```
 
 ### Login
 ```
